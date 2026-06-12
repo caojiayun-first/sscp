@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.14</version>
+        <version>3.5.15</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -23,16 +23,10 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
         <spring-cloud.version>2025.0.2</spring-cloud.version>
-        <spring-boot.version>3.5.14</spring-boot.version>
+        <spring-boot.version>3.5.15</spring-boot.version>
         <snakeyaml.version>2.3</snakeyaml.version>
         <snappy-java.version>1.1.10.4</snappy-java.version>
         <jackson.version>2.15.2</jackson.version>
-        <netty.version>4.2.15.Final</netty.version>
-        <spring-framework.version>6.2.19</spring-framework.version>
-        <spring-retry.version>2.0.13</spring-retry.version>
-        <micrometer.version>1.15.12</micrometer.version>
-        <reactor-netty.version>1.2.18</reactor-netty.version>
-        <spring-kafka.version>3.3.16</spring-kafka.version>
         <logback.version>1.5.25</logback.version>
         <!-- swagger 3 -->
         <springdoc-ui.version>2.8.0</springdoc-ui.version>
@@ -333,31 +327,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>io.projectreactor.netty</groupId>
-                <artifactId>reactor-netty-http</artifactId>
-                <version>${reactor-netty.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.projectreactor.netty</groupId>
-                <artifactId>reactor-netty-core</artifactId>
-                <version>${reactor-netty.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.data</groupId>
-                <artifactId>spring-data-commons</artifactId>
-                <version>3.5.12</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.data</groupId>
-                <artifactId>spring-data-redis</artifactId>
-                <version>3.5.12</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.data</groupId>
-                <artifactId>spring-data-keyvalue</artifactId>
-                <version>3.5.12</version>
-            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
