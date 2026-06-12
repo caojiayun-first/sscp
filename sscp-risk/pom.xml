@@ -32,6 +32,7 @@
         <spring-framework.version>6.2.19</spring-framework.version>
         <spring-retry.version>2.0.13</spring-retry.version>
         <micrometer.version>1.15.12</micrometer.version>
+        <spring-kafka.version>3.3.16</spring-kafka.version>
         <tomcat.version>10.1.55</tomcat.version>
         <kafka.version>3.9.2</kafka.version>
         <commons-lang3.version>3.18.0</commons-lang3.version>
@@ -297,6 +298,21 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-commons</artifactId>
+                <version>3.5.12</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-redis</artifactId>
+                <version>3.5.12</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-keyvalue</artifactId>
+                <version>3.5.12</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
