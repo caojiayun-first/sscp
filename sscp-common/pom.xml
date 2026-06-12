@@ -56,6 +56,7 @@
         <netty.version>4.1.135.Final</netty.version>
         <spring-framework.version>6.2.19</spring-framework.version>
         <spring-retry.version>2.0.13</spring-retry.version>
+        <spring-kafka.version>3.3.16</spring-kafka.version>
         <okio.version>3.6.0</okio.version>
         <ehcache.version>2.10.6</ehcache.version>
         <kafka.version>3.9.2</kafka.version>
@@ -485,6 +486,21 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok-mapstruct-binding</artifactId>
                 <version>${lombok-mapstruct-binding.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-commons</artifactId>
+                <version>3.5.12</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-redis</artifactId>
+                <version>3.5.12</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-keyvalue</artifactId>
+                <version>3.5.12</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
